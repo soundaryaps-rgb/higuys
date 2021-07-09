@@ -1,0 +1,57 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Type Conversions</title>
+    </head>
+    <body>
+       <center><h1>Type Of Conversions</h1></center>
+       <p>Implicit Conversion</p>
+        <script>
+            document.write(10+'5');
+            document.write("<br>");
+            document.write(typeof (10+'5'));
+            document.write("<br><br>");
+             document.write(10*'5');
+            document.write("<br>");
+            document.write(typeof (10*'5'));
+            document.write("<br><br>");
+             document.write(10+20.8);
+            document.write("<br>");
+            document.write(typeof (10+20.8));
+            document.write("<br><br>");
+             document.write(10+"hello");
+            document.write("<br>");
+            document.write(typeof (10+"hello"));
+            document.write("<br><br>");
+            
+        </script>
+        <p>Explicit Conversion</p>
+        <script>
+            var name="tutorial",num1="78";
+            var value="100", num2=40;
+            document.write(String(value));
+            document.write("<br>");
+            document.write(typeof (String(value)));
+            document.write("<br><br>");
+            document.write(Number(num1));
+            document.write("<br>");
+            document.write(typeof (Number(num1)));
+            document.write("<br><br>");
+            document.write(Number("Hello"));
+            document.write("<br>");
+            document.write(typeof (Number("Hello")));
+            document.write("<br><br>");
+            document.write(Boolean(value));
+            document.write("<br>");
+            document.write(typeof(Boolean(value)));
+            document.write("<br><br>")
+            x=num2.toString(16);
+            document.write(x);
+            document.write("<br>");
+            document.write(typeof(x));
+            document.write("<br><br>");
+            
+           
+        </script>
+    </body>
+</html>
